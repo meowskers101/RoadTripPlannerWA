@@ -1085,7 +1085,7 @@ elif BFS_path is not None:
 
         # Show highways used with actual drive times
         if detailed_segments:
-            st.subheader("🛣️ Route Segments")
+            st.subheader("Route Segments")
             
             # Create a nice table for the route
             for idx, segment in enumerate(detailed_segments, 1):
