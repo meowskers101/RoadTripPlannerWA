@@ -27,12 +27,7 @@ except Exception:
     _HAS_PYDECK = False
 
 # Try to import shapely and geopandas for county borders
-try:
-    import geopandas as gpd
-    from shapely.geometry import Point, Polygon
-    _HAS_GEOPANDAS = True
-except Exception:
-    _HAS_GEOPANDAS = False
+
 
 # Use the graph from wa_counties module
 wa_graph = wa_county_graph
